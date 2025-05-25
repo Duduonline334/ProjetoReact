@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Tarefas li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;   
+    color: black;
+    background-color: aliceblue;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.Tarefas li:hover{
+    cursor: pointer;
+}
